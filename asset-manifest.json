@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/practice-fashion/static/css/main.88af140f.css",
+    "main.css": "/practice-fashion/static/css/main.c5136ce8.css",
     "main.js": "/practice-fashion/static/js/main.508199ae.js",
     "static/media/header-img.jpg": "/practice-fashion/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/promo-img.jpg": "/practice-fashion/static/media/promo-img.527fa310359de2170668.jpg",
@@ -20,11 +20,11 @@
     "static/media/arrow.svg": "/practice-fashion/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
     "static/media/fb.svg": "/practice-fashion/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
     "static/media/decor-yellow.svg": "/practice-fashion/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.88af140f.css.map": "/practice-fashion/static/css/main.88af140f.css.map",
+    "main.c5136ce8.css.map": "/practice-fashion/static/css/main.c5136ce8.css.map",
     "main.508199ae.js.map": "/practice-fashion/static/js/main.508199ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.88af140f.css",
+    "static/css/main.c5136ce8.css",
     "static/js/main.508199ae.js"
   ]
 }
