@@ -1,0 +1,192 @@
+.promo {
+  margin-bottom: 63px;
+}
+
+.promo__content {
+  display: flex;
+  column-gap: 24px;
+  padding-top: 68px;
+  padding-left: 120px;
+  border-radius: 59px;
+  background-color: #f4f6f5;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .promo__content {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .promo__content {
+    display: block;
+    padding-top: 20px;
+  }
+}
+
+.promo__title {
+  max-width: 480px;
+  margin-bottom: 40px;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: calc(120 / 96);
+}
+
+@media screen and (max-width: 1600px) {
+  .promo__title {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .promo__title {
+    font-size: 50px;
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .promo__title {
+    font-size: 30px;
+    max-width: 150px;
+  }
+}
+
+.promo__desc {
+  margin-bottom: 32px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: calc(48 / 32);
+  letter-spacing: -0.05em;
+}
+
+@media screen and (max-width: 1600px) {
+  .promo__desc {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .promo__desc {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .promo__desc {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .promo__desc {
+    font-size: 18px;
+  }
+}
+
+.promo__btn-wrapper {
+  display: flex;
+  column-gap: 34px;
+  align-items: center;
+}
+
+.promo__btn-wrapper::before {
+  content: "";
+  display: inline-block;
+  width: 190px;
+  height: 32px;
+  background-image: url("./../../images/icons/decor-yellow.svg");
+}
+
+@media screen and (max-width: 1300px) {
+  .promo__btn-wrapper::before {
+    display: none;
+  }
+}
+
+.promo__btn {
+  padding: 18px 40px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.05em;
+  transition: background-color 250ms ease-in-out;
+}
+
+.promo__btn:hover,
+.promo__btn:focus {
+  background-color: var(--hoverColor);
+}
+
+@media screen and (max-width: 1600px) {
+  .promo__btn {
+    padding: 15px 30px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .promo__btn {
+    padding: 10px 20px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .promo__btn {
+    padding: 5px 8px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .promo__btn {
+    margin-bottom: 20px;
+  }
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.highlight span {
+  position: relative;
+  z-index: 1;
+}
+
+.highlight::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -12px;
+  bottom: 0;
+  left: -40px;
+  right: -160px;
+  background-color: #fff;
+  transform: rotate(-2deg);
+}
+
+@media screen and (max-width: 1400px) {
+  .highlight::before {
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: -80px;
+  }
+}
+
+.highlight--yellow::before {
+  background-color: var(--yellow);
+  right: -110px;
+}
+
+@media screen and (max-width: 1400px) {
+  .highlight--yellow::before {
+    right: -50px;
+  }
+}

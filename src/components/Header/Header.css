@@ -1,0 +1,128 @@
+.header {
+  padding: 46px 0 56px;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 642px;
+  display: flex;
+  column-gap: 13px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1920px) {
+  .header__logo {
+    margin-right: auto;
+  }
+}
+
+.header__logo span {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__logo span {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__logo span {
+    font-size: 18px;
+  }
+}
+
+.header__nav {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__nav {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__nav {
+    font-size: 16px;
+  }
+}
+
+.header__list {
+  margin-right: 54px;
+  display: flex;
+  column-gap: 65px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__list {
+    margin-right: 30px;
+    column-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__list {
+    margin-right: 20px;
+    column-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__list {
+    display: none;
+  }
+}
+
+.header__navlink {
+  color: var(--textColor);
+  transition: color 250ms ease-in-out;
+}
+
+.header__navlink:hover,
+.header__navlink:focus {
+  color: var(--hoverColor);
+}
+
+.header__nav-btn {
+  padding: 15px 22px;
+  border-radius: 7px;
+  background: #000;
+  color: #fefefe;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  transition: background-color 250ms ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__nav-btn {
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__nav-btn {
+    padding: 5px 8px;
+    font-size: 16px;
+  }
+}
+
+.header__nav-btn:hover,
+.header__nav-btn:focus {
+  background-color: var(--hoverColor);
+}

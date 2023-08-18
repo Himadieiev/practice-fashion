@@ -1,0 +1,74 @@
+:root {
+  --textColor: #000;
+  --yellow: #ebd96b;
+  --gray: #7f7f7f;
+  --hoverColor: #0000ff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--textColor);
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+@media screen and (max-width: 1920px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.04;
+  letter-spacing: 0.06em;
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 18px;
+  }
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  width: 190px;
+  height: 32px;
+  background-image: url("./../images/icons/decor-yellow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .title::after {
+    width: 100px;
+    height: 20px;
+    right: 8px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .title::after {
+    width: 80px;
+    height: 10px;
+    right: 8px;
+    bottom: 2px;
+  }
+}

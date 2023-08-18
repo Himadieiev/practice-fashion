@@ -1,0 +1,40 @@
+.favourite {
+  padding-top: 190px;
+  padding-bottom: 220px;
+}
+
+@media screen and (max-width: 1200px) {
+  .favourite {
+    padding-top: 63px;
+    padding-bottom: 63px;
+  }
+}
+
+.favourite__header {
+  margin-bottom: 118px;
+}
+
+@media screen and (max-width: 1200px) {
+  .favourite__header {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .favourite__header {
+    margin-bottom: 50px;
+  }
+}
+
+.favourite__cards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 48px;
+}
+
+@media screen and (max-width: 700px) {
+  .favourite__cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

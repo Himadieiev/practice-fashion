@@ -1,0 +1,40 @@
+.arrivals {
+  padding-top: 120px;
+  padding-bottom: 143px;
+}
+
+@media screen and (max-width: 1200px) {
+  .arrivals {
+    padding-top: 63px;
+    padding-bottom: 63px;
+  }
+}
+
+.arrivars__header {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .arrivars__header {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .arrivars__header {
+    margin-bottom: 50px;
+  }
+}
+
+.arrivals__cards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .arrivals__cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
